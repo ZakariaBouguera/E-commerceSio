@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+<<<<<<< HEAD
 Route::get('/admin/connexion',[AdminControllers::class ,'connexion']);
 #Route::get('/admin/seconnecter',function (){
 #   return "Connecter vous";
@@ -50,3 +51,5 @@ Route::fallback(function(){
  return redirect('/');
 
 });
+=======
+>>>>>>> main
